@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>スマート進数変換 - サポート</title>
+<meta name="description" content="スマート進数変換は、2進数から62進数までをひとつの画面で変換できるアプリです。値を入力すると、ピン留めした進数への変換結果がすぐに並びます。">
+<link rel="icon" href="app-icon.png">
+<style>
+:root{
+  --bg:#F6F4EF; --card:#FFFFFF; --ink:#24222B; --sub:#7F7A72; --accent:#0070EB;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#17161C; --card:#24222D; --ink:#F2EFE8; --sub:#A6A1B0; --accent:#1F8AFF; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;line-height:1.7}
+.wrap{max-width:720px;margin:0 auto;padding:48px 20px}
+.logo{display:flex;align-items:center;gap:14px}
+.logo h1{margin:0;font-size:34px;font-weight:800;line-height:1.3}
+.tagline{color:var(--sub);font-weight:600;margin-top:4px}
+.mark{flex:none;width:56px;height:56px;border-radius:13px}
+.lang-link{margin-top:14px;font-size:14px}
+.card{background:var(--card);border-radius:22px;padding:24px 28px;margin-top:24px;box-shadow:0 3px 12px rgba(40,30,20,.08)}
+h2{font-size:20px;margin:0 0 10px}
+.section-lang{font-size:24px;margin:56px 0 0}
+ul{padding-left:20px;margin:8px 0}
+li+li{margin-top:6px}
+a{color:var(--accent);font-weight:700;word-break:break-all}
+footer{color:var(--sub);font-size:13px;margin-top:40px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">
+    <img class="mark" src="app-icon.png" width="56" height="56" alt="">
+    <div>
+      <h1>Smart Convert</h1>
+      <div class="tagline">2〜62進数をひとつの画面で</div>
+    </div>
+  </div>
+  <div class="lang-link"><a href="#en" lang="en">English</a></div>
+
+  <div class="card">
+    <h2>Smart Convert について</h2>
+    <p>スマート進数変換は、2進数から62進数までをひとつの画面で変換できるアプリです。値を入力すると、ピン留めした進数への変換結果がすぐに並びます。</p>
+    <ul>
+      <li><strong>2〜62進数に対応</strong> — 2・8・10・16進数に加えて、「進数を追加」から好きな進数をピン留めできます。</li>
+      <li><strong>桁数の上限なし</strong> — 任意精度の計算で、64ビットを超える大きな数も丸めずに正確に変換します。</li>
+      <li><strong>タップでコピー</strong> — 結果カードをタップしてコピー。長押しで区切り付き・プレフィックス付きのコピーや「この値を入力に使う」が選べます。</li>
+      <li><strong>履歴</strong> — 変換した値は自動で保存され、タップすると変換画面に戻して再利用できます。</li>
+    </ul>
+    <p>無料でご利用いただけます。アカウント登録は不要です。</p>
+  </div>
+
+  <div class="card">
+    <h2>サポート</h2>
+    <p>不具合のご報告・ご要望・ご質問は、下記メールアドレスまでお気軽にご連絡ください。</p>
+    <p><a href="mailto:app.info.kn@gmail.com?subject=Smart%20Convert%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">app.info.kn@gmail.com</a></p>
+    <p>よくある質問:</p>
+    <ul>
+      <li><strong>広告を非表示にするには？</strong> — 「設定」タブの「広告」セクションにある「広告を削除する」をタップして購入してください。一度購入すれば広告が表示されなくなります。</li>
+      <li><strong>機種変更や再インストールのあと、購入を引き継ぐには？</strong> — 購入時と同じApple Accountでサインインし、「設定」タブの「広告」セクションにある「購入を復元する」をタップしてください。</li>
+      <li><strong>履歴を削除するには？</strong> — 「履歴」タブで項目を左にスワイプすると1件ずつ削除できます。「全件削除」ですべての履歴を削除することもできます。履歴は新しいものから最大50件まで保存されます。</li>
+      <li><strong>トラッキングを許可しないと使えない機能はありますか？</strong> — ありません。広告の配信にGoogle AdMobを使用しているため初回起動時に許可をお尋ねしますが、許可しなくてもすべての機能をご利用いただけます。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>プライバシー</h2>
+    <ul>
+      <li><a href="https://kn-factory.hatenablog.com/entry/2023/06/18/122731">プライバシーポリシー</a></li>
+    </ul>
+  </div>
+
+  <h2 class="section-lang" id="en" lang="en">English</h2>
+  <div lang="en">
+  <div class="card">
+    <h2>About Smart Convert</h2>
+    <p>Smart Convert converts numbers between any bases from 2 to 62, all on one screen. Type a value and the results for your pinned bases appear instantly.</p>
+    <ul>
+      <li><strong>Bases 2 to 62</strong> — Binary, octal, decimal and hex by default, and pin any other base with &quot;Add base&quot;.</li>
+      <li><strong>No digit limit</strong> — Arbitrary-precision math converts huge numbers, well beyond 64 bits, exactly with no rounding.</li>
+      <li><strong>Tap to copy</strong> — Tap a result card to copy it, or touch and hold to copy with separators or a prefix, or to use the value as input.</li>
+      <li><strong>History</strong> — Values are saved automatically. Tap one to bring it back to the converter.</li>
+    </ul>
+    <p>Free to use, and no account needed.</p>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p>For bug reports, feature requests or questions, please email us at the address below.</p>
+    <p><a href="mailto:app.info.kn@gmail.com?subject=Smart%20Convert%20inquiry">app.info.kn@gmail.com</a></p>
+    <p>FAQ:</p>
+    <ul>
+      <li><strong>How do I remove ads?</strong> — Open the Settings tab and tap &quot;Remove Ads&quot; in the Ads section. After a single purchase, ads are no longer shown.</li>
+      <li><strong>How do I get my purchase back on a new device or after reinstalling?</strong> — Sign in with the same Apple Account you purchased with, then tap &quot;Restore Purchases&quot; in the Ads section of the Settings tab.</li>
+      <li><strong>How do I delete history?</strong> — In the History tab, swipe left on an item to delete it, or tap &quot;Clear All&quot; to delete everything. The 50 most recent values are kept.</li>
+      <li><strong>Do I have to allow tracking to use the app?</strong> — No. Ads are provided by Google AdMob, so the app asks for permission on first launch, but every feature works whether or not you allow it.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <ul>
+      <li><a href="https://kn-factory.hatenablog.com/entry/2023/06/18/122731">Privacy Policy</a></li>
+    </ul>
+  </div>
+  </div>
+
+  <footer>© 2026 Koya Nambo — Smart Convert</footer>
+</div>
+</body>
+</html>
